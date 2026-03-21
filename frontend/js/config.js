@@ -1,4 +1,5 @@
 const CONFIG = {
+    apiBaseUrl: "https://astro-backend-qg24.onrender.com",
     firebase: {
         apiKey: "AIzaSyC_1zweWRYkW9wrLTx1nSEE9hZHo0BCEkg",
         authDomain: "astrosoc-72c8f.firebaseapp.com",
