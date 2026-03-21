@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members - ASTRONOMY & ASTROPHYSICS SOCIETY</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Canvas -->
+    <div id="bg-canvas"></div>
+
+    <section class="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto max-w-7xl text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 gradient-text" data-aos="fade-down">The Crew</h1>
+            <p class="text-gray-400 max-w-2xl mx-auto text-base sm:text-lg">Meet the brilliant minds behind the telescope.</p>
+        </div>
+
+        <!-- Grid populated by Firebase -->
+        <div id="membersGrid" class="container mx-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+            <div class="col-span-full text-center py-20 text-cyan-500 animate-pulse">Establishing link with database...</div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

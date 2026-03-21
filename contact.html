@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ASTRONOMY & ASTROPHYSICS SOCIETY</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Canvas -->
+    <div id="bg-canvas"></div>
+
+    <section class="min-h-screen pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto max-w-2xl">
+            <div class="holo-card p-6 sm:p-8" data-aos="zoom-in">
+                <h1 class="text-3xl sm:text-4xl font-bold mb-6 text-center gradient-text">Establish Contact</h1>
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-sm text-cyan-400 mb-2">Identity</label>
+                        <input type="text" class="input-field" placeholder="Commander Shepard">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-cyan-400 mb-2">Frequency (Email)</label>
+                        <input type="email" class="input-field" placeholder="shepard@alliance.nav">
+                    </div>
+                    <div>
+                        <label class="block text-sm text-cyan-400 mb-2">Transmission</label>
+                        <textarea class="input-field h-32" placeholder="Requesting docking permission..."></textarea>
+                    </div>
+                    <button class="glow-btn w-full">Send Transmission</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
